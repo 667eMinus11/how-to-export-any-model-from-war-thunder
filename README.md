@@ -19,11 +19,14 @@ it shuld look somthing like this: (don't notice my horrible speling lmao)
 Then press launch, it will take a minute or two to load, and sometimes it opens it and moves the window off screen, if you are exprincing that just press Exit in ninja ripper and reopen it should work the second time.
 this is how it should look, notice the ninja ripper hud, if you do not see it somthing went wrong
 ![image](https://github.com/tomerla14/how-to-export-any-model-from-war-thunder/assets/45241614/509d2512-f7d8-4d4f-8f49-396dd880ab4d)
+
 Click on all in the bottom left corner, this menue should appear 
 ![image](https://github.com/tomerla14/how-to-export-any-model-from-war-thunder/assets/45241614/72f5fc55-ea69-44fa-a726-a1a43284f74c)
+
 select dynModel
 now brows the folders on the left side you will see between map object folders a tanks folder a aircraft folder and a ships folder, all of the game vehicles are in there.
 Select a vehicle you want to export, it should show up on screen, like this
+
 ![image](https://github.com/tomerla14/how-to-export-any-model-from-war-thunder/assets/45241614/474daaaa-2dd5-40de-aaf6-ea0def35d4d7)
 
 If you are exporting a prop aircraft make sure to dissable the prop_dmg nodes on the right side of the screen like this:
@@ -35,11 +38,13 @@ Now when you are ready to rip press Print screen.
 
 Open blender, any modern version will do, ninja ripper comes with a blender addon, install it, to install it select edit-> prefrences->addons and install like this:
 ![image](https://github.com/tomerla14/how-to-export-any-model-from-war-thunder/assets/45241614/af3a6e77-a6b7-4456-82f0-0fe7a307d451)
+
 you should have a python script with your ninja ripper install select it and the addon will install.
 
 Now in file-> import select Ninja ripper 2 world space, find the most recent frame in the output directory you selected in the ninja ripper menu, sorting by date enter the most recent folder and you should see a frame_0-frame_1 and so on folders, every frame coresponds to every time you pressed print screen in the asset viewer,
 select the most recent frame and press 'a' to select all the files it should look like this:
 ![image](https://github.com/tomerla14/how-to-export-any-model-from-war-thunder/assets/45241614/21e5e40c-7d29-44d8-9ac5-fbd6b4e75e10)
+
 now to you will need to find a FOV_Y value, use this tuturial. this value should work for every model as long as you dont reset the view in the asset viewer(its a button closing and opening will keep the FOV_Y value).
 https://www.youtube.com/watch?v=vmBPuWQHmqo
 notice that the rip comes with 3 compleatly flat versions of the model so they wont be affected by FOV_Y changes. The real model is around mesh 20-50.
