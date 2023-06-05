@@ -18,9 +18,11 @@ it shuld look somthing like this: (don't notice my horrible speling lmao)
 
 Then press launch, it will take a minute or two to load, and sometimes it opens it and moves the window off screen, if you are exprincing that just press Exit in ninja ripper and reopen it should work the second time.
 this is how it should look, notice the ninja ripper hud, if you do not see it somthing went wrong
+
 ![image](https://github.com/tomerla14/how-to-export-any-model-from-war-thunder/assets/45241614/509d2512-f7d8-4d4f-8f49-396dd880ab4d)
 
-Click on all in the bottom left corner, this menue should appear 
+Click on all in the bottom left corner, this menu should appear 
+
 ![image](https://github.com/tomerla14/how-to-export-any-model-from-war-thunder/assets/45241614/72f5fc55-ea69-44fa-a726-a1a43284f74c)
 
 select dynModel
@@ -30,7 +32,9 @@ Select a vehicle you want to export, it should show up on screen, like this
 ![image](https://github.com/tomerla14/how-to-export-any-model-from-war-thunder/assets/45241614/474daaaa-2dd5-40de-aaf6-ea0def35d4d7)
 
 If you are exporting a prop aircraft make sure to dissable the prop_dmg nodes on the right side of the screen like this:
+
 ![image](https://github.com/tomerla14/how-to-export-any-model-from-war-thunder/assets/45241614/8be95712-1fe9-49f3-a977-eb50ba35aee7)
+
 unless of coures you want to use the damged prop.
 In the same way you can dissable all of the engine exhaust and gun fire decals, we can remove them in blender but if you preffer to skip that step you can.
 Now when you are ready to rip press Print screen.
